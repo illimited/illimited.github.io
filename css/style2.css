@@ -260,3 +260,82 @@ p {
 .box{
     width: calc(100% - 20px);
 }
+.section3_content{
+    letter-spacing: 4.5px;
+    font-size: 18px;
+}
+.footer_icon{
+    margin-left:40%;
+}
+.footer_txt{
+    color:white;
+    margin-left:38%;
+    letter-spacing:2px;
+    font-size: 8px;
+}
+
+/* 手機版的css */
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+.mobiles{
+    margin-bottom: 10px;
+}
+.mobile_top{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    display: inline-block;
+    background-color: gray;
+    color:white;  
+    opacity: 0.8;
+    box-shadow:5px 5px 4px rgba(20%,20%,40%,0.6);
+}
+.mobile_min{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    display: inline-block;
+    background-color: gray;
+    color:white;  
+    opacity: 0.8;
+    box-shadow:5px 5px 4px rgba(20%,20%,40%,0.6);
+    z-index: 1px;
+}
+.mobile_bottom{
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    display: inline-block;
+    background-color: gray;
+    color:white;  
+    opacity: 0.8;
+    box-shadow:5px 5px 4px rgba(20%,20%,40%,0.6);
+    z-index: 1px;
+}
+@media screen and (max-width:576px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .section3_content{
+        letter-spacing: 0.5px;
+    }
+    .footer_icon{
+        margin-left:25%;
+    }
+    .footer_txt{
+        margin-left:20%;
+    }
+}
